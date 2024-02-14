@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    border-radius: 10px !important;
+    background-color: #252154 !important;
+   
+}
+.card .logo{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.logo img{
+    position: absolute;
+    top: 20px;
+    width: 300px !important;
+}
+.card .background img{
+    width: 100% !important;
+    border-radius: 10px !important;
+}
+.card .name{
+    background-color: #539eb6;
+    width: 100%;
+    position: absolute;
+    margin-top:90%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.card .name h1{
+    padding: 15px 0 5px 0;
+    font-size: 30px !important;
+    font-family:Arial, Helvetica, sans-serif !important;
+    letter-spacing: 2px;
+}
+.card .name h2{
+    font-family:Arial, Helvetica, sans-serif !important;
+}
+.foot{
+    color: whitesmoke;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer2{
+    display: flex;
+}
+.footer h3{
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: -5px;
+}
+.footer2 h2{
+    font-size: 30px;
+    border-right:1px solid gray;
+    padding: 0 20px 0 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.footer2 h3{
+    margin-left: 10px;
+    font-size: 30px;
+    font-family:Arial, Helvetica;
+}
+@media(max-width:400px){
+    .card .name{
+        margin-top: 85%;
+    }
+}
